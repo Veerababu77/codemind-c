@@ -4,7 +4,7 @@ int main(){
     scanf("%d%d",&a,&b);
     t1=a*1;
     t2=b*2;
-    if(b%2==1 && a==0){
+    if(b%2==1 and a==0){
         printf("NO");
     }
     else if((t1+t2)%2==0){
@@ -13,5 +13,4 @@ int main(){
     else{
         printf("NO");
     }
-    
 }
